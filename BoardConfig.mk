@@ -121,9 +121,6 @@ BOARD_VNDK_VERSION := current
 # MTK
 BOARD_USE_MTK_HARDWARE := true
 
-# Target Init.rc
-TARGET_RECOVERY_INITRC := $(DEVICE_PATH)/recovery/root/init.recovery.mt6765.rc
-
 # TWRP Configuration
 TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true
