@@ -39,6 +39,9 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export OF_USE_GREEN_LED=0
 	export FOX_ENABLE_APP_MANAGER=1
 
+	# Recovery
+	FOX_RECOVERY_INSTALL_PARTITION="/dev/block/bootdevice/by-name/recovery"
+	
 	# OTA
 	export OF_KEEP_DM_VERITY_FORCED_ENCRYPTION=1
 	export OF_SUPPORT_ALL_BLOCK_OTA_UPDATES=1
