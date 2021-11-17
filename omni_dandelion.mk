@@ -22,9 +22,9 @@ $(call inherit-product, vendor/omni/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := dandelion
-PRODUCT_NAME := twrp_dandelion
+PRODUCT_NAME := omni_dandelion
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi 9C,Redmi 9A
+PRODUCT_MODEL := Redmi 9A
 PRODUCT_MANUFACTURER := xiaomi
 
 # Dynamic Partition
